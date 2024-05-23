@@ -5,7 +5,8 @@ import styled from 'styled-components';
 function App() {
     return (
         <div className="App">
-            <Title>Welcome to IT-INCUBATOR</Title>
+            <Title>Hello</Title>
+
         </div>
     );
 }
