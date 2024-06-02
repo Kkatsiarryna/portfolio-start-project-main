@@ -46,6 +46,6 @@ const Quote = styled.h2`
     font-size: 100px;
 `
 
-const Pagination = styled.span`
+const Pagination = styled.div`
     display: inline-block;
 `

@@ -23,6 +23,6 @@ const StyledWork = styled.div`
     height: 295px;
 `
 
-const Description = styled.p`
+const Description = styled.span`
 
 `

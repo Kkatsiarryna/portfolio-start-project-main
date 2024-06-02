@@ -10,8 +10,8 @@ export const Works = () => {
         <StyledWorks>
             <SectionTitle>My Works</SectionTitle>
             <div>
-                <h3>4+</h3>
-                <h4>Years Experience Working</h4>
+                <span>4+</span>
+                <span>Years Experience Working</span>
             </div>
             <StyledWorkTitle>Developer and Designer, specialized in UI/UX and Web Developer</StyledWorkTitle>
             <FlexWrapper wrap={"wrap"} justify={"space-between"}>
@@ -24,7 +24,7 @@ export const Works = () => {
 };
 
 const StyledWorks = styled.section`
-    min-height: 100vh;
+    min-height: 60vh;
     background-color: #c5e4ea;
 `
 const StyledWorkTitle = styled.h2`
