@@ -25,12 +25,20 @@ const StyledForm = styled.form`
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 24px;
 `
 
 const FieldTitle = styled.span`
-
+    font-weight: 500;
+    font-size: 30px;
 `
 
 const Field = styled.input`
+    font-size: 38px;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    width: 100%; 
 `

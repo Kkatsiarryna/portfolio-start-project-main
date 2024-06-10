@@ -6,15 +6,15 @@ import {Contact} from "./contact/Contact";
 export const Contacts = () => {
     return (
         <StyledContacts>
-            <SectionTitle>Contact</SectionTitle>
+           {/* <SectionTitle>Contact</SectionTitle>*/}
             <Contact/>
         </StyledContacts>
     );
 };
 
 const StyledContacts = styled.div`
-    min-height: 50vh;
-    background-color: #dff6c6;
+    display: flex;
+    
 
 `
 
